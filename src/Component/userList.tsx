@@ -41,7 +41,7 @@ const UserList = (props: Props) => {
               <td>{element.email}</td>
               <td className="d-flex justify-content-center gap-2">
                 
-                <button className="bg-danger border border-0 rounded-1 text-light inline-block" >
+                <button className="bg-danger border border-0 rounded-1 text-light inline-block" onClick={()=>handleDelete(element.id)}>
                  Delete
                 </button>
 
